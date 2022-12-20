@@ -21,7 +21,9 @@ per_3 = (bill_1 / people_1) * 1.15
 c_formatted = format(per_3, ".2f")
 c_float = float(c_formatted)
 
-if (percent == 10): print(f"Each person should pay: ${per_float}")
-if (percent == 12): print(f"Each person should pay: ${b_float}")
-if (percent == 15): print(f"Each person should pay: ${c_float}")
-if(percent == 15):                                                                                        print(f"Each person should pay: ${c_float}")
+if (percent == 10): 
+    print(f"Each person should pay: ${per_float}")
+elif (percent == 12): 
+    print(f"Each person should pay: ${b_float}")
+elif (percent == 15): 
+    print(f"Each person should pay: ${c_float}")
